@@ -11,7 +11,7 @@ using namespace std;
 
 int main()
 {
-    int a[] = { 1,2,3 };
+    int a[] = { 1,2,3,5 };
     int b[] = { 3,4,5 };
     int lengthOfA = sizeof(a) / sizeof(a[0]);
     Set s1 = Set(a, lengthOfA);
