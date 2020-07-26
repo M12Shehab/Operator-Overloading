@@ -31,6 +31,7 @@ int main()
     Set s_union = s1 | s2;
     cout << "+ Test 2 in progress.\n";
     assert(test_case_union(s_union));
+    cout << "Finish task..\n";
     return 0;
 }
 
