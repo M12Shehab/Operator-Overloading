@@ -56,6 +56,14 @@ Set Set::operator&(const Set& s)
 
 Set Set::operator|(Set s)
 {
+	// You have to implement this section of code.
+	// NOTE: first add the biggest set, then the smaller one.
+	// E.g.:
+	// int a[] = { 1,2,3,5 };
+	// int b[] = { 3,4,5 };
+	// a is bigger than b, so the union array must add 1,2,3,5
+	// after that, b must be added with eliminate the dublicate ones 3 and 5
+	// the result is {1,2,3,5,4}
 	return Set();
 }
 
