@@ -37,8 +37,11 @@ int Set::size() const
 Set Set::operator&(const Set& s)
 {
 	int min = MIN(this->SIZE, s.size());
-	int* temp = new int[min];
+	int* temp = new int[min]();
 	int index=0;
+	/*int a[] = { 1,2,3,5 };
+	  int b[] = { 3,4,5 };*/
+	// Searching process
 	for (int j = 0; j < this->SIZE; j++)
 	{
 		int value = this->ptr[j];
