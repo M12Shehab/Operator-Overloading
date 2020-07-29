@@ -32,7 +32,7 @@ int main()
     cout << "+ Test 2 in progress.\n";
     assert(test_case_union(s_union));
     cout << "Finish task..\n";
-    cout << "I am change the code.\n";
+    //cout << "I am change the code.\n";
     return 0;
 }
 
